@@ -1,2 +1,2 @@
-# Latte-Andante-Project-2
+# Latte-Andante-Mobile-App
 Introducing Best Coffee Shops in Metro ATL
