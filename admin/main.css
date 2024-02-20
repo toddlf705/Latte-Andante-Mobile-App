@@ -1,0 +1,68 @@
+body{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#favorite {
+    margin-bottom: -60px;
+    margin-left: 293px; 
+}
+
+h1{
+    text-align: center;
+    color: #7542ff;
+    font-size: 2.5rem;
+}
+
+#firstp{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(204, 189, 247);
+    padding: 20px;
+}
+
+#secondp{
+    color: rgb(137, 137, 137);
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+.icons{
+    width: 380px;
+    margin-top: 60px;
+    margin-left: 8px;
+}
+
+#firstrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+#secondrow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+#thirdrow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+#study{
+    margin-top: 4px;
+}
+#bakery{
+    margin-right: 20px;
+}
+#dessert{
+    margin-top: -11px;
+    margin-right: -10px;
+}
+#bubble_tea{
+    margin-top: -3px;
+    margin-right: -10px;
+}
+

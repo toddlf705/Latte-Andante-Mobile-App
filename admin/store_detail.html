@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="store_detail.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <title>Latte Andante</title>
+</head>
+
+<body>
+    <a href=""><img src="../image/icons/icon_favorite_yellow.png" style = "width: 120px;" id="favorite"></a>
+    <div id="title">
+        <a href="main.html"><img src="../image/icons/icon_home_grey.png" style = "width: 100px;" id="home"></a>
+        <h1>Premium Coffee</h1>
+    </div>
+    <div id="icons">
+        <a href="premium.html"><img src ="../image/icons/icon_premium coffee.png" style = "width: 58px;" id="premium_coffee"></a>
+        <a href=""><img src ="../image/icons/icon_bakery.png" style = "width: 38px;" id="bakery"></a>  
+        <a href=""><img src ="../image/icons/icon_dessert.png" style = "width: 37px;" id="dessert"></a>
+        <a href=""><img src ="../image/icons/icon_study.png" style = "width: 40px;" id ="study"></a>
+        <a href=""><img src ="../image/icons/icon_brunch.png" style = "width: 43px;" id="brunch"></a>
+        <a href=""><img src ="../image/icons/icon_bubble tea.png" style = "width: 43px;" id="bubble_tea"></a>
+    </div>
+
+    <div id="container">
+        <div class = "store_info"> 
+            <h3 id="name"></h3>
+            <h3 id="address"></h3>
+            <h3 id="rating"></h3>
+            <h3>ADD TO FAVORITE <img src="../image/icons/icon_favorite_yellow.png" style = "width: 80px;" id="add_fav"></h3>
+        </div>
+    </div>
+
+    <template class = "photo_template">
+        <div id="list_photos">
+            <img src="#" id="store_image" style="width: 110px; height: 120px; border-radius: 5px; margin-top: 15px;"> 
+        </div>
+    </template>
+
+    <div class="map">
+        MAP 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.8878988858223!2d-84.0968248!3d33.969720699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5bda128efaf07%3A0x390fbbe5b67ddbb2!2sCafe%20Blue!5e0!3m2!1sen!2sus!4v1708461857002!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="store_detail.js"></script>
+</body>
+</html>
