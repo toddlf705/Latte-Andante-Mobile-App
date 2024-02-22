@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
     <title>Latte Andante</title>
 </head>
 
@@ -26,21 +27,38 @@
     </div>
 
     <div id="container">
+        <img src ="" id="mainpic" style = "width: 100px; height: 140px; margin: 10px 5px 0px 10px;">
         <div class = "store_info"> 
-            <h3 id="name"></h3>
-            <h3 id="address"></h3>
-            <h3 id="rating"></h3>
-            <h3>ADD TO FAVORITE <img src="../image/icons/icon_favorite_yellow.png" style = "width: 80px;" id="add_fav"></h3>
+            <span id="name"></span><br>
+            <span id="address">
+                <span>Address: </span><br><span id="street"></span><span>,</span><br>
+                <span id="city"></span><span>,</span>
+                <span id="state"></span>
+                <span id="zipcode"></span></span><br>
+            <span>Rating: </span><span id="rating"></span>
+            <span id="addtofav" style ="margin-top: -20px;">Add to favorite <img src="../image/icons/icon_favorite_yellow.png" style = "width: 80px;" id="add_fav"></span>
+    
         </div>
     </div>
-
-    <template class = "photo_template">
-        <div id="list_photos">
-            <img src="#" id="store_image" style="width: 110px; height: 120px; border-radius: 5px; margin-top: 15px;"> 
+    <div class = "gallery">
+        <div class ="slider">
+            <button id="left_arrow" class="arrow"> < </button>
+            <div class = "image-list">
+                <img src="../image/Cafe Blue Duluth/Cafe Blue 1iced black sesame latte.jpeg" id="slide1" class = "image-item">
+                <img src="../image/Cafe Blue Duluth/Cafe Blue drink menus.png" id="slide2" class = "image-item">
+                <img src="../image/Cafe Blue Duluth/Cafe Blue cookies.png" id="slide3" class = "image-item">
+                <img src="../image/Cafe Blue Duluth/Cafe Blue tiramisu latte.png" id="slide4" class = "image-item">
+                <img src="../image/Cafe Blue Duluth/CafeBlue black sesame latte.jpeg" id="slide5" class = "image-item">
+                <img src="../image/Cafe Blue Duluth/CafeBlue exterior.png" id="slide6" class = "image-item">
+                <img src="../image/Cafe Blue Duluth/CafeBlue iced butterfly pea flower tea.jpeg" id="slide7" class = "image-item">
+                <img src="../image/Cafe Blue Duluth/CafeBlue salmon bagel.png" id="slide8" class = "image-item">
+            </div>
+            <button id="right_arrow" class="arrow">></button>
         </div>
-    </template>
+    </div>
+    
 
-    <div class="map">
+    <div class="map" style = "text-align: center">
         MAP 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.8878988858223!2d-84.0968248!3d33.969720699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5bda128efaf07%3A0x390fbbe5b67ddbb2!2sCafe%20Blue!5e0!3m2!1sen!2sus!4v1708461857002!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>

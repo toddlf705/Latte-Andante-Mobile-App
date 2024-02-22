@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="premium.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <title>Latte Andante</title>
+</head>
+
+<body>
+    <a href="favorite.html"><img src="../image/icons/icon_favorite_yellow.png" style = "width: 120px;" id="favorite"></a>
+    <div id="title">
+        <a href="main.html"><img src="../image/icons/icon_home_grey.png" style = "width: 100px;" id="home"></a>
+        <h1>Brunch Cafe</h1>
+    </div>
+    <div id="icons">
+        <a href="premium.html"><img src ="../image/icons/icon_premium coffee.png" style = "width: 58px;" id="premium_coffee"></a>
+        <a href="bakery.html"><img src ="../image/icons/icon_bakery.png" style = "width: 38px;" id="bakery"></a>  
+        <a href="dessert.html"><img src ="../image/icons/icon_dessert.png" style = "width: 37px;" id="dessert"></a>
+        <a href="study.html"><img src ="../image/icons/icon_study.png" style = "width: 40px;" id ="study"></a>
+        <a href="brunch.html"><img src ="../image/icons/icon_brunch.png" style = "width: 43px;" id="brunch"></a>
+        <a href="bubble_tea.html"><img src ="../image/icons/icon_bubble tea.png" style = "width: 43px;" id="bubble_tea"></a>
+    </div>
+    
+    <div class = "container"> 
+        <template class = "list_template">
+            <div id="list_items">
+                <a href="">
+                <img src="#" id="store_image" style="width: 110px; height: 120px; border-radius: 5px; margin-top: 15px;"> 
+                </a><br><span id="store_name"></span>/<span id ="city"></span>
+            </div>
+        </template>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="brunch.js"></script>
+</body>
+</html>

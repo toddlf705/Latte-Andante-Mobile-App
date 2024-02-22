@@ -8,7 +8,7 @@ const main = async () => {
         [
             {
                 store_name: "Cafe Blue",
-                category: ["premium coffee"],
+                category: ["premium coffee", "study"],
                 address: {
                     "street": "2005 Boggs Rd NW Suite 100",
                     "city": "Duluth",
@@ -155,7 +155,150 @@ const main = async () => {
                     "../image/Orange Coffee/melon shaved.png"
                 ],
                 map: "https://www.google.com/maps/place/Orange+Coffee+Bar/@33.9660421,-84.137004,17z/data=!3m2!4b1!5s0x88f5a30326c18797:0x65fd7cb1dd513332!4m6!3m5!1s0x88f5a3031e4717a7:0xcfbb09a01eca644f!8m2!3d33.9660421!4d-84.1344291!16s%2Fg%2F11b7ck8vv0?hl=en&entry=ttu"
-            }
+            },
+            {
+                store_name: "Vincent Bakery Cafe",
+                category: ["bakery", "study"],
+                address: {
+                    "street": "2442 Pleasant Hill Rd",
+                    "city": "Duluth",
+                    "state": "GA",
+                    "zipcode": "30096"
+                },
+                phone: "770-622-2028",
+                rating: 4.5, 
+                img: [
+                    "../image/Vincent/1main.png",
+                    "../image/Vincent/interior.png",
+                    "../image/Vincent/bakery.png",
+                    "../image/Vincent/drink.png",
+                    "../image/Vincent/cake.png",
+                    "../image/Vincent/colorful bread.png",
+                    "../image/Vincent/pastry.png"
+                ],
+                map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.0190831176483!2d-84.141509!3d33.966349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a300fa5690fb%3A0xa3b85a93bc3cd7c9!2sVincent%20Bakery%20Cafe!5e0!3m2!1sen!2sus!4v1708536396638!5m2!1sen!2sus"
+            },
+            {
+                store_name: "White Windmill Coffee and Bakery",
+                category: ["bakery", "study", "brunch", "dessert"],
+                address: {
+                    "street": "2200 Duluth Hwy Ste 108",
+                    "city": "Duluth",
+                    "state": "GA",
+                    "zipcode": "30097"
+                },
+                phone: "770-559-7477",
+                rating: 4.3, 
+                img: [
+                    "../image/White Windmill/1main.png",
+                    "../image/White Windmill/exterior.png",
+                    "../image/White Windmill/brunch.png",
+                    "../image/White Windmill/brunch2.png",
+                    "../image/White Windmill/cake.png",
+                    "../image/White Windmill/croissant.png",
+                    "../image/White Windmill/dessert.png",
+                    "../image/White Windmill/drink.png",
+                    "../image/White Windmill/interior.png",
+                    "../image/White Windmill/salad.png"
+                ],
+                map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.5471416877513!2d-84.10020275876795!3d33.978477473296344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5bd06a8539187%3A0xbd04413d55d6a9a7!2sWhite%20Windmill%20Coffee%20and%20Bakery!5e0!3m2!1sen!2sus!4v1708536944981!5m2!1sen!2sus"
+            },
+            {
+                store_name: "The Coffee By Hand",
+                category: ["study", "dessert"],
+                address: {
+                    "street": "2180 Pleasant Hill Rd",
+                    "city": "Duluth",
+                    "state": "GA",
+                    "zipcode": "30096"
+                },
+                phone: "770-232-8850",
+                rating: 4.4, 
+                img: [
+                    "../image/The Coffee By Hand/1main.png",
+                    "../image/The Coffee By Hand/interior.png",
+                    "../image/The Coffee By Hand/shaved ice.png",
+                    "../image/The Coffee By Hand/shaved ice2.png",
+                    "../image/The Coffee By Hand/latte.png",
+                    "../image/The Coffee By Hand/affogato.png",
+                    "../image/The Coffee By Hand/desserts.png",
+                    "../image/The Coffee By Hand/snack.png",
+                    "../image/The Coffee By Hand/waffle icecream.png"
+                ],
+                map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.20180554374!2d-84.13709005876848!3d33.96165217330281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a304e7e0cdcb%3A0xb0980a64a311b4ff!2sThe%20Coffee%20By%20Hand!5e0!3m2!1sen!2sus!4v1708537559975!5m2!1sen!2sus" 
+            },
+            {
+                store_name: "Confections Bakery & Cafe",
+                category: ["bakery", "brunch"],
+                address: {
+                    "street": "8020 McGinnis Ferry Rd Suite 110",
+                    "city": "Suwanee",
+                    "state": "GA",
+                    "zipcode": "30024"
+                },
+                phone: "716-228-7514",
+                rating: 4.3, 
+                img: [
+                    "../image/Confections/1main.png",
+                    "../image/Confections/pastries.png",
+                    "../image/Confections/sandwhich.png",
+                    "../image/Confections/brunch.png",
+                    "../image/Confections/croissant.png",
+                    "../image/Confections/cupcakes.png",
+                    "../image/Confections/coffee.png",
+                    "../image/Confections/donut.png",
+                    "../image/Confections/drink and bread.png",
+                    "../image/Confections/drink and cake.png"
+                ],
+                map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.646185143544!2d-84.12535898763358!3d34.05294597304487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f599d32f2907b1%3A0x5f90952ccea228ac!2sConfections%20Bakery%20%26%20Cafe!5e0!3m2!1sen!2sus!4v1708538654827!5m2!1sen!2sus"
+            },
+            {
+                store_name: "Hansel & Gretel Bakery Cafe",
+                category: ["bakery", "dessert", "bubble tea"],
+                address: {
+                    "street": "1291 Old Peachtree Rd NW Suite 405",
+                    "city": "Suwanee",
+                    "state": "GA",
+                    "zipcode": "30024"
+                },
+                phone: "770-667-7884",
+                rating: 4.3, 
+                img: [
+                    "../image/Hansel & Gretel/1main.png",
+                    "../image/Hansel & Gretel/interior.png",
+                    "../image/Hansel & Gretel/cake.png",
+                    "../image/Hansel & Gretel/coffee and tea.png",
+                    "../image/Hansel & Gretel/cakes.png",
+                    "../image/Hansel & Gretel/croissant.png",
+                    "../image/Hansel & Gretel/cute cakes.png",
+                    "../image/Hansel & Gretel/shaved ice 2.png",
+                    "../image/Hansel & Gretel/shaved ice.png"
+                ],
+                map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.561045700317!2d-84.08591228763517!3d34.00380697306341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5bd5c3c6fc667%3A0x5b8f05c3ceba268e!2sHansel%20%26%20Gretel%20Bakery%20Cafe!5e0!3m2!1sen!2sus!4v1708539230345!5m2!1sen!2sus"
+            },
+            {
+                store_name: "Greatea",
+                category: ["bubble tea", "dessert"],
+                address: {
+                    "street": "10475 Medlock Bridge Rd suite 101A",
+                    "city": "Johns Creek",
+                    "state": "GA",
+                    "zipcode": "30097"
+                },
+                phone: "770-710-0459",
+                rating: 4.6, 
+                img: [
+                    "../image/Greatea/1main.png",
+                    "../image/Greatea/interior.png",
+                    "../image/Greatea/choco drink.png",
+                    "../image/Greatea/drinks.png",
+                    "../image/Greatea/milktea.png",
+                    "../image/Greatea/tea.png",
+                    "../image/Greatea/waffle.png",
+                    "../image/Greatea/waffle2.png"
+                ],
+                map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.356704109455!2d-84.18752128763421!3d34.03471997305168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f598b4c3970a95%3A0xcc40327a7995b1bb!2sGreatea!5e0!3m2!1sen!2sus!4v1708539711794!5m2!1sen!2sus"
+            },
         ]
     await Coffeeshops.insertMany(coffeeshops)
     console.log('Seeded Coffee Shops!')

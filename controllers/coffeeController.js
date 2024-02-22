@@ -13,7 +13,7 @@ const getCoffeeByName = async (req, res) => {
    try {
       const{ name } = req.params
       let { store_name } = req.query
-      const storename = await Coffee.find({ store_name: name })
+      const storename = await Coffee.find({store_name: name})
          res.json(storename)
    } catch (e){
       return res.status(500).send(e.message)
