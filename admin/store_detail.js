@@ -1,7 +1,3 @@
-const store_info = document.querySelector(".store_info")
-const container = document.querySelector("#container")
-
-
 async function loadDetails () {
     try {
         const response = await axios.get('http://localhost:3001/coffee')
@@ -23,8 +19,6 @@ async function loadDetails () {
         rating.innerHTML = response.data[0].rating
         mainpic.src = response.data[0].img[0]
 
-
-        container.append(list)
     } catch {}
 
 }

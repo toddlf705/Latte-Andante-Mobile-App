@@ -16,5 +16,12 @@ fetch("http://localhost:3001/coffee/premium%20coffee")
         city.innerHTML = coffeeshops.address[0].city
 
         container.append(list)
+
+        image.addEventListener( "click", () => {
+            if (store_name.innerHTML == "Cafe Blue") {
+            window.location.href = `${store_name.innerHTML}.html`}
+         })
         })
+
     })
+

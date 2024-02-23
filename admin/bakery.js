@@ -16,5 +16,10 @@ fetch("http://localhost:3001/coffee/bakery")
         city.innerHTML = coffeeshops.address[0].city
 
         container.append(list)
+
+        image.addEventListener( "click", () => {
+            if (store_name.innerHTML == "Vincent Bakery Cafe") {
+            window.location.href = "Vincent Bakery Cafe.html"}
+         })
         })
     })
